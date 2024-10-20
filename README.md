@@ -46,17 +46,17 @@ Node.js (version 18.x or higher recommended)
 npm or yarn (package managers)
 
 ### Setup Instructions
-Navigate to the frontend directory:
+1. Navigate to the frontend directory:
 ```
 cd ../frontend
 ```
 
-Install the dependencies:
+2. Install the dependencies:
 ```
 npm install  # or yarn install
 ```
 
-Run the frontend:
+3. Run the frontend:
 ```
 npm start
 ```
@@ -74,3 +74,9 @@ uvicorn main:app --reload
 npm start
 ```
 Access the application at http://localhost:3000 to interact with the Rule Engine UI.
+
+## Technologies Used
+Backend: Python (FastAPI/Flask/Django), SQLAlchemy, Pydantic
+Frontend: React.js
+Database: SQLite/PostgreSQL/MySQL
+Testing: Pytest, React Testing Library
