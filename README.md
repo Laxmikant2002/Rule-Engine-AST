@@ -19,6 +19,58 @@ PostgreSQL/MySQL/SQLite for database
 1. Clone the repository:
    
 ```git clone https://github.com/yourusername/rule-engine-with-ast.git
-  cd rule-engine-with-ast/backend```
+  cd rule-engine-with-ast/backend
+```
 
-2. 
+2. Create and activate a virtual environment (optional but recommended):
+
+```
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate  # Windows
+```
+
+3. Install the dependencies using requirements.txt:
+
+```
+pip install -r requirements.txt
+```
+
+4. Set up the database
+The backend API will be running at http://127.0.0.1:8000.
+
+## Frontend: React.js
+
+#### Prerequisites
+Node.js (version 18.x or higher recommended)
+npm or yarn (package managers)
+
+### Setup Instructions
+Navigate to the frontend directory:
+```
+cd ../frontend
+```
+
+Install the dependencies:
+```
+npm install  # or yarn install
+```
+
+Run the frontend:
+```
+npm start
+```
+The React app will be running at http://localhost:3000.
+## Running the Application
+
+1. Start the backend server:
+
+```
+uvicorn main:app --reload
+```
+
+2.Start the frontend React app:
+```
+npm start
+```
+Access the application at http://localhost:3000 to interact with the Rule Engine UI.
