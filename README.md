@@ -76,7 +76,7 @@ npm start
 Access the application at http://localhost:3000 to interact with the Rule Engine UI.
 
 ## Technologies Used
-Backend: Python (FastAPI/Flask/Django), SQLAlchemy, Pydantic
-Frontend: React.js
-Database: SQLite/PostgreSQL/MySQL
-Testing: Pytest, React Testing Library
+####Backend: Python (FastAPI/Flask/Django), SQLAlchemy, Pydantic
+####Frontend: React.js
+####Database: SQLite/PostgreSQL/MySQL
+####Testing: Pytest, React Testing Library
